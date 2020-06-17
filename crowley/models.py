@@ -1,5 +1,7 @@
-from django.db import models
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
+from django.db import models
 
 class Crawler(models.Model):
     """Uma instância do robô que irá utilizar dados de usuário do Facebook

@@ -1,5 +1,7 @@
-from django.db import models
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
+from django.db import models
 
 class Owner(models.Model):
     """Uma entidade responsável por eventos.

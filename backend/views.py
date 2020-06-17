@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from backend.models import Owner, Event
 from backend.serializers import OwnerSerializer, EventSerializer
 from rest_framework.views import APIView

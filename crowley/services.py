@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import facebook
 from datetime import datetime
 from pytz import timezone
