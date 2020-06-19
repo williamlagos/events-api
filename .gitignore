@@ -93,3 +93,4 @@ ENV/
 # Project specific files
 db.sqlite3
 secret.key
+get-pip.py
