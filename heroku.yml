@@ -10,4 +10,4 @@ release:
     command:
         - python2 manage.py migrate
 run:
-    web: gunicorn contents.wsgi -b 0.0.0.0:$PORT
+    web: gunicorn danceapp.wsgi -b 0.0.0.0:$PORT
