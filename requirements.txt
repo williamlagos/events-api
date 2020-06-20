@@ -1,5 +1,6 @@
 colorama==0.3.7
 Django==1.9.7
+django-toolbelt==0.0.1
 django-crispy-forms==1.6.0
 django-filter==0.13.0
 django-material==0.8.0
