@@ -3,6 +3,8 @@ FROM ubuntu:latest
 WORKDIR /app
 ADD . /app
 
+ENV DANCEAPP_ENVIRONMENT 1
+
 RUN apt update
 RUN apt install -y python2 python2-dev postgresql-server-dev-12 build-essential curl git
 RUN curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
