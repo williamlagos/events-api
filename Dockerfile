@@ -4,7 +4,7 @@ WORKDIR /app
 ADD . /app
 
 RUN apt update
-RUN apt install -y python2 python2-dev build-essential curl git
+RUN apt install -y python2 python2-dev postgresql-server-dev-12 build-essential curl git
 RUN curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
 RUN python2 get-pip.py
 RUN pip install pylint
